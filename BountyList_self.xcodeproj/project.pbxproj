@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		9867885825E4015200607FCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9867885725E4015200607FCB /* AppDelegate.swift */; };
 		9867885A25E4015200607FCB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9867885925E4015200607FCB /* SceneDelegate.swift */; };
-		9867885C25E4015200607FCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9867885B25E4015200607FCB /* ViewController.swift */; };
 		9867885F25E4015200607FCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9867885D25E4015200607FCB /* Main.storyboard */; };
 		9867886125E4015300607FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9867886025E4015300607FCB /* Assets.xcassets */; };
 		9867886425E4015300607FCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9867886225E4015300607FCB /* LaunchScreen.storyboard */; };
+		9867887225E4143400607FCB /* BountyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9867887125E4143400607FCB /* BountyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9867885425E4015200607FCB /* BountyList_self.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BountyList_self.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9867885725E4015200607FCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9867885925E4015200607FCB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9867885B25E4015200607FCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9867885E25E4015200607FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9867886025E4015300607FCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9867886325E4015300607FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9867886525E4015300607FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9867887125E4143400607FCB /* BountyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 			children = (
 				9867885725E4015200607FCB /* AppDelegate.swift */,
 				9867885925E4015200607FCB /* SceneDelegate.swift */,
-				9867885B25E4015200607FCB /* ViewController.swift */,
 				9867885D25E4015200607FCB /* Main.storyboard */,
+				9867887125E4143400607FCB /* BountyViewController.swift */,
 				9867886025E4015300607FCB /* Assets.xcassets */,
 				9867886225E4015300607FCB /* LaunchScreen.storyboard */,
 				9867886525E4015300607FCB /* Info.plist */,
@@ -137,8 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9867885C25E4015200607FCB /* ViewController.swift in Sources */,
 				9867885825E4015200607FCB /* AppDelegate.swift in Sources */,
+				9867887225E4143400607FCB /* BountyViewController.swift in Sources */,
 				9867885A25E4015200607FCB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
