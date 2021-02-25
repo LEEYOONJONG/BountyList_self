@@ -13,6 +13,7 @@
 		9867886125E4015300607FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9867886025E4015300607FCB /* Assets.xcassets */; };
 		9867886425E4015300607FCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9867886225E4015300607FCB /* LaunchScreen.storyboard */; };
 		9867887225E4143400607FCB /* BountyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9867887125E4143400607FCB /* BountyViewController.swift */; };
+		9877623125E76D1500AF2A52 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9877623025E76D1500AF2A52 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9867886325E4015300607FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9867886525E4015300607FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9867887125E4143400607FCB /* BountyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyViewController.swift; sourceTree = "<group>"; };
+		9877623025E76D1500AF2A52 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				9867885725E4015200607FCB /* AppDelegate.swift */,
 				9867885925E4015200607FCB /* SceneDelegate.swift */,
-				9867885D25E4015200607FCB /* Main.storyboard */,
 				9867887125E4143400607FCB /* BountyViewController.swift */,
+				9877623025E76D1500AF2A52 /* DetailViewController.swift */,
+				9867885D25E4015200607FCB /* Main.storyboard */,
 				9867886025E4015300607FCB /* Assets.xcassets */,
 				9867886225E4015300607FCB /* LaunchScreen.storyboard */,
 				9867886525E4015300607FCB /* Info.plist */,
@@ -140,6 +143,7 @@
 				9867885825E4015200607FCB /* AppDelegate.swift in Sources */,
 				9867887225E4143400607FCB /* BountyViewController.swift in Sources */,
 				9867885A25E4015200607FCB /* SceneDelegate.swift in Sources */,
+				9877623125E76D1500AF2A52 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
