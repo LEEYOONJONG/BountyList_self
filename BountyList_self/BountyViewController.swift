@@ -27,6 +27,7 @@ class BountyViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        // 어떻게 보여줄까?
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? ListCell else{
             return UITableViewCell()
         }
@@ -82,10 +83,17 @@ class BountyViewModel{
         BountyInfo(name:"zoro", bounty:120000000),
     ]
     
+    var sortedList:[BountyInfo]{
+        let sortedList = bountyInfoList.sorted{ prev, next in
+            return prev.bounty > next.bounty
+        }
+        return sortedList
+    }
+    
     var numOfBountyInfoList:Int {
         return bountyInfoList.count
     }
     func bountyInfo(at index:Int) -> BountyInfo{
-        return bountyInfoList[index]
+        return sortedList[index]
     }
 }
