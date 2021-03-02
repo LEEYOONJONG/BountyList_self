@@ -21,11 +21,12 @@ class BountyViewController: UIViewController, UICollectionViewDataSource, UIColl
             }
         }
     }
-
+    // 테이블뷰(콜렉션뷰) 셀 몇 개?
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return viewModel.numOfBountyInfoList
     }
     
+    // 어떻게 보여줄까?
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "GridCell", for: indexPath) as? GridCell else {
             return UICollectionViewCell()
